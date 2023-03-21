@@ -78,8 +78,8 @@ cat_cols = ['Brand', 'Model', 'Body', 'Color', 'Fuel', 'Transmission', 'Gov']
 num_cols = ['Kilometers', 'Engine', 'Age']
 
 # loading transformer & model
-t = pickle.load(open('./Machine-Learning/Regression/Used_Cars_Price_Prediction/transf.pkl', 'rb'))
-m = pickle.load(open('./Machine-Learning/Regression/Used_Cars_Price_Prediction/RF.pkl', 'rb'))
+t = pickle.load(open('./Regression/Used_Cars_Price_Prediction/transf.pkl', 'rb'))
+m = pickle.load(open('./Regression/Used_Cars_Price_Prediction/RF.pkl', 'rb'))
 
 # show the prediction when pressing the button
 if st.button('Predict'):
