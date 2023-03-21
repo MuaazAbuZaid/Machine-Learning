@@ -6,7 +6,7 @@ import sklearn
 from datetime import datetime
 
 # reading data
-df = pd.read_csv('./Machine-Learning/Regression/Used_Cars_Price_Prediction/Sources/Cars_cleaned.csv')
+df = pd.read_csv('./Regression/Used_Cars_Price_Prediction/Sources/Cars_cleaned.csv')
 
 # titles
 st.markdown(" <center>  <h1> Prediction Page </h1> </font> </center> </h1> ",
