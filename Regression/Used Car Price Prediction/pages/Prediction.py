@@ -6,7 +6,7 @@ import sklearn
 from datetime import datetime
 
 # reading data
-df = pd.read_csv('Sources/Cars_cleaned.csv')
+df = pd.read_csv('./Machine-Learning/Regression/Used Car Price Prediction/Sources/Cars_cleaned.csv')
 
 # titles
 st.markdown(" <center>  <h1> Prediction Page </h1> </font> </center> </h1> ",
@@ -78,8 +78,8 @@ cat_cols = ['Brand', 'Model', 'Body', 'Color', 'Fuel', 'Transmission', 'Gov']
 num_cols = ['Kilometers', 'Engine', 'Age']
 
 # loading transformer & model
-t = pickle.load(open('transf.pkl', 'rb'))
-m = pickle.load(open('RF.pkl', 'rb'))
+t = pickle.load(open('./Machine-Learning/Regression/Used Car Price Prediction/transf.pkl', 'rb'))
+m = pickle.load(open('./Machine-Learning/Regression/Used Car Price Prediction/RF.pkl', 'rb'))
 
 # show the prediction when pressing the button
 if st.button('Predict'):
