@@ -9,4 +9,4 @@ st.markdown(''' <center>  <h6>
     This app is created to predict Used Car Price in Egypt </center> </h6> ''', unsafe_allow_html=True)
 
 # the path of a photo provided from the path of this file
-st.image('Sources/Cars_Egypt.jpg')
+st.image('./Machine-Learning/Regression/Used Car Price Prediction/Sources/Cars_Egypt.jpg')
